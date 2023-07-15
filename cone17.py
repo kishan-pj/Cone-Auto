@@ -10,7 +10,6 @@ from utils import cv_utils
 from utils import operations as ops
 from utils import tf_utils
 
-
 # Load class names
 classNames = []
 classFile = 'objmodels/coco.names'
@@ -37,7 +36,6 @@ CROP_WIDTH = CROP_HEIGHT = 600
 CROP_STEP_HORIZONTAL = CROP_STEP_VERTICAL = 600 - 20  # no cone bigger than 20px
 SCORE_THRESHOLD = 0.5
 NON_MAX_SUPPRESSION_THRESHOLD = 0.5
-
 
 ser = serial.Serial('COM8', 9600, timeout=1)
 ser.flush()

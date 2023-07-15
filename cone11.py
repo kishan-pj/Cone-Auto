@@ -37,7 +37,6 @@ def main():
     cap = cv2.VideoCapture(0)
 
     fps = cap.get(cv2.CAP_PROP_FPS)
-
     # CROP_WIDTH = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
     # CROP_HEIGHT = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
