@@ -13,6 +13,7 @@ from utils import cv_utils
 from utils import operations as ops
 from utils import tf_utils
 
+
 logging.config.fileConfig('logging.ini')
 
 FROZEN_GRAPH_PATH = 'models/ssd_mobilenet_v1/frozen_inference_graph.pb'
